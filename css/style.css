@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: "Arial", "Verdana";
   background-color: #000000;
   color: #FFFFFF;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 0;
 }
   
 main h1 {
@@ -18,7 +18,7 @@ main h2 {
 
 main p {
   font-size: 24px;
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0 0 10px;
 }
 
 main img {
@@ -47,6 +47,7 @@ main div {
   margin-left: 50px;
   border-bottom: 2px solid #FFFFFF;
   border-left: 5px solid #FFFFFF;
+  padding: 10px;
 }
 
 .blue {
@@ -56,6 +57,7 @@ main div {
   border-right: 5px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
   color: #C4C4C4;
+  padding: 10px;
 }
 
 .blue h2 {
@@ -69,6 +71,7 @@ main div {
   margin-left: 50px;
   border-bottom: 2px solid #FFFFFF;
   border-left: 5px solid #FFFFFF;
+  padding: 10px;
 }
 
 .green {
@@ -77,16 +80,17 @@ main div {
   margin-right: 50px;
   border-right: 5px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
+  padding: 10px;
 }
 
-footer {
+body footer {
   background: linear-gradient(0deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
   border: 5px solid #FFFFFF;
 }
 
-footer p {
+body footer p {
   font-size: 20px;
   text-align: right;
-  padding: 15px 15px 15px 0px;
+  padding: 15px 15px 15px 0;
 }
 
