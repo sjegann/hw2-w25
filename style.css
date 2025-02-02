@@ -41,13 +41,16 @@ main div {
   line-height: 2;
 }
 
+.red, .blue, .green, .yellow {
+  border: none;
+}
+
 .red {
   background-color: #FF0000;
   text-align: right;
   margin-left: 50px;
   border-bottom: 2px solid #FFFFFF;
   border-left: 5px solid #FFFFFF;
-  padding: 10px;
 }
 
 .blue {
@@ -57,7 +60,6 @@ main div {
   border-right: 5px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
   color: #C4C4C4;
-  padding: 10px;
 }
 
 .blue h2 {
@@ -71,7 +73,6 @@ main div {
   margin-left: 50px;
   border-bottom: 2px solid #FFFFFF;
   border-left: 5px solid #FFFFFF;
-  padding: 10px;
 }
 
 .green {
@@ -80,7 +81,6 @@ main div {
   margin-right: 50px;
   border-right: 5px solid #FFFFFF;
   border-top: 2px solid #FFFFFF;
-  padding: 10px;
 }
 
 body footer {
