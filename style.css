@@ -1,8 +1,8 @@
 body {
-  font-family: "Arial", "Verdana";
+  font-family: Arial, Verdana;
   background-color: #000000;
   color: #FFFFFF;
-  margin: 20px 20px 0;
+  margin: 20px 20px 0 20px;
 }
   
 main h1 {
